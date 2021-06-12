@@ -1,9 +1,8 @@
-# Telegram Radio Player V2
+# Telegram Music Player
 
 An Telegram Bot to Play Radio/Music in Channel or Group Voice Chats.
 
-This is also the source code of the bot which is being used for playing
-Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](https://t.me/safothebot) Group.
+This is also the source code of the bot which is being used for playing Music in [FlixAr](http://t.me/FlixAr_uniqX) official Movie, TV Series Channel of UNIQX Family.
 
 ## Special Features
 
@@ -16,7 +15,7 @@ Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](htt
 
 ## Deploy to Heroku (The Easy Way)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AsmSafone/RadioPlayerV2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/FabianDav/MusicPlayerBot)
 
 ## Heroku Vars:
 1. `API_ID` : Get From my.telegram.org
@@ -32,7 +31,7 @@ Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](htt
 - Bot will starts radio automatically in given `CHAT` with given `STREAM_URL` after deploy. 
 - 24x7 Music even if heroku restarts, radio stream restarts automatically.  
 - To play a song just send the audio file to Bot or reply to an audio with `/play` to start playing it in the voice chat.
-- To download audio you can use [@SafoneMusicBot](http://t.me/SafoneMusicBot) or `/song` command to the bot.
+- To download audio you can use `/song` command.
 - Use `/help` to know about other commands & its usage.
 
 ## Requirements
@@ -42,15 +41,14 @@ Radio in [AsmSafone](https://t.me/AsmSafone) Channel & Music in [SafoTheBot](htt
   [Telegram API key](https://docs.pyrogram.org/intro/quickstart#enjoy-the-api)
   and a Telegram account.
 - [FFmpeg Python](https://www.ffmpeg.org/)
-- Telegram [String Session](http://t.me/genStr_robot) of the account.
 - Userbot Needs To Be Admin In The Channel or Group.
 - Must Start A Voice Chat In Channel/Group Before Running The Bot.
 
 ## Run On VPS (The Hard Way)
 
 ```sh
-$ git clone https://github.com/AsmSafone/RadioPlayerV2
-$ cd RadioPlayerV2
+$ git clone https://github.com/FabianDav/MusicPlayerBot
+$ cd MusicPlayerBot
 $ sudo apt-get install ffmpeg
 $ pip3 install -U pip
 $ pip3 install -U -r requirements.txt
@@ -63,8 +61,8 @@ $ python3 main.py
 
 ## License
 ```sh
-RadioPlayerV2, Telegram Voice Chat Userbot
-Copyright (C) 2021  Asm Safone
+MusicPlayerBot, Telegram Voice Chat Userbot
+Copyright (C) 2021  UNIQX Family
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published by
